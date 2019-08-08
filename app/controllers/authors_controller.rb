@@ -16,6 +16,7 @@ if @author.save
    else
       render :new
     end
+  end
 
   private
 
