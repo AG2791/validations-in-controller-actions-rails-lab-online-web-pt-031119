@@ -13,7 +13,9 @@ if @author.save
     
       
     redirect_to author_path(@author)
-  end
+   else
+      render :new
+    end
 
   private
 
